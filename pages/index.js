@@ -104,7 +104,7 @@ export default function Home() {
       <h1 className="title-font sm:text-4xl text-3xl pt-24 mb-10 font-medium text-gray-900 text-center">What can you expect from our services?</h1>
         <div className="container px-5 pb-24 mx-auto flex flex-wrap">
         <div className="lg:w-1/2 w-full mb-10 lg:mb-0 rounded-lg overflow-hidden">
-        <img className="object-cover object-center rounded" alt="hero" src="https://c1.wallpaperflare.com/preview/701/370/408/toothbrush-brush-rotten-blue.jpg" />
+        <img className="brush object-cover object-center rounded" alt="hero" src="https://c1.wallpaperflare.com/preview/701/370/408/toothbrush-brush-rotten-blue.jpg"/>
           </div>
           <div className="flex flex-col flex-wrap lg:py-6 -mb-10 lg:w-1/2 lg:pl-12 lg:text-left text-center">
             <div className="flex flex-col mb-10 lg:items-start items-center">

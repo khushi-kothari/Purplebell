@@ -44,3 +44,13 @@
   height: 100%;
   z-index: 4;
 }
+
+.brush {
+  height: 700px;
+}
+
+@media screen and (max-width: 768px) {
+  .brush {
+    height: 400px;
+  }
+}
