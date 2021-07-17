@@ -26,12 +26,11 @@ export default function Home() {
         </a>
         <div className="hidden md:flex flex-row items-center">
         <nav className="flex lg:w-full flex-wrap items-center text-base md:ml-auto">
-          <a className="mr-5 hover:text-gray-900"></a>
-          <a className="mr-5 hover:text-gray-900">Support</a>
+          <a className="mr-5 hover:text-gray-900">About</a>
           <a className="mr-5 hover:text-gray-900">Where to buy</a>
           <a className="mr-5 hover:text-gray-900">Contact Us</a>
         </nav>
-        <button className="inline-flex items-center bg-red-500 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0 text-white">Login / Signup
+        <button className="inline-flex items-center bg-yellow-600 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0 text-white">Login / Signup
         </button>
         </div>
         {/* Mobile Logo */}
@@ -46,7 +45,6 @@ export default function Home() {
         <div className="mobile-menu hidden">
         <div className="md:hidden p-3 bg-gray-300 flex flex-col"></div>
           <a className="block py-1 px-4 text-sm hover:bg-gray-400">About</a>
-          <a className="block py-1 px-4 text-sm hover:bg-gray-400"></a>
           <a className="block py-1 px-4 text-sm hover:bg-gray-400">Where to buy</a>
           <a className="block py-1 px-4 text-sm hover:bg-gray-400">Contact Us</a>
         </div>
@@ -56,17 +54,16 @@ export default function Home() {
       <main className="flex flex-col items-center w-full flex-1 px-20 text-center">
         <section className="text-gray-600 body-font">
         <div className="container mx-auto flex px-5 py-24 items-center justify-center flex-col">
-          <div className="text-center lg:w-2/3 w-full p-20">
+          <div className="text-center lg:w-2/3 w-full p-20 bg-black bg-opacity-50">
             <h1 className="title-font mb-10 text-5xl font-bold text-white">
               Welcome to {' '}
-              <a className="text-blue-200" href="#">
+              <a className="text-blue-400" href="#">
                 BlueBell
               </a>
             </h1>
             <p className="mb-8 leading-relaxed text-white">Meggings kinfolk echo park stumptown DIY, kale chips beard jianbing tousled. Chambray dreamcatcher trust fund, kitsch vice godard disrupt ramps hexagon mustache umami snackwave tilde chillwave ugh. Pour-over meditation PBR&B pickled ennui celiac mlkshk freegan photo booth af fingerstache pitchfork.</p>
             <div className="flex justify-center">
               <button className="inline-flex text-white bg-yellow-500 border-0 py-2 px-6 focus:outline-none hover:bg-yellow-600 rounded text-lg">Button</button>
-              <button className="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">Button</button> 
             </div>
           </div>
           <img className="lg:w-2/6 mt-8 md:w-3/6 w-5/6 mb-10 object-cover object-center rounded text-right" alt="toothbrush" src="" />
@@ -84,11 +81,11 @@ export default function Home() {
       </div>
       </div>
 
-      {/* Products */}
+      {/* Bristles Products */}
       <section className="text-gray-600 body-font">
         <div className="container px-5 py-24 mx-auto flex flex-wrap">
           <div className="lg:w-1/2 w-full mb-10 lg:mb-0 rounded-lg overflow-hidden">
-            <img alt="feature" className="object-cover object-center h-full w-full" src="https://dummyimage.com/460x500" />
+            <div className="brush_img object-cover object-center h-full w-full" />
           </div>
           <div className="flex flex-col flex-wrap lg:py-6 -mb-10 lg:w-1/2 lg:pl-12 lg:text-left text-center">
             <div className="flex flex-col mb-10 lg:items-start items-center">
@@ -146,11 +143,36 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Scroll */}
+      <div className="bg_1 relative">
+      </div>
+
+      {/* Aluminium Filament */}
+      <div>
+      <section className="text-gray-600 body-font">
+        <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+          <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+            <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Before they sold out
+              <br className="hidden lg:inline-block" />readymade gluten
+            </h1>
+            <p className="mb-8 leading-relaxed">Copper mug try-hard pitchfork pour-over freegan heirloom neutra air plant cold-pressed tacos poke beard tote bag. Heirloom echo park mlkshk tote bag selvage hot chicken authentic tumeric truffaut hexagon try-hard chambray.</p>
+            <div className="flex justify-center">
+              <button className="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Button</button>
+              <button className="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">Button</button>
+            </div>
+          </div>
+          <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+            <img className="object-cover object-center rounded" alt="hero" src="https://dummyimage.com/720x600" />
+          </div>
+        </div>
+      </section>
+      </div>
+
       {/* Contact US */}
       <div>
         <section className="text-gray-600 body-font relative">
             <div className="absolute inset-0 bg-gray-300">
-                <iframe width="100%" height="100%" frameborder="0" marginheight="0" marginwidth="0" title="map" scrolling="no" src="https://maps.google.com/maps?width=100%&height=600&hl=en&q=%C4%B0zmir+(My%20Business%20Name)&ie=UTF8&t=&z=14&iwloc=B&output=embed" style={{filter: "grayscale(1) contrast(1.2) opacity(0.4)"}}></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3777264.7681065374!2d69.07544377746385!3d22.401340698493023!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3959051f5f0ef795%3A0x861bd887ed54522e!2sGujarat%2C%20India!5e0!3m2!1sen!2sus!4v1626518989595!5m2!1sen!2sus" width="100%" height="800" style={{border:"0"}} allowfullscreen="" loading="lazy"></iframe>
             </div>
             <div className="container px-5 py-24 mx-auto flex">
                 <div className="lg:w-1/3 md:w-1/2 bg-white rounded-lg p-8 flex flex-col md:ml-auto w-full mt-10 md:mt-0 relative z-10 shadow-md">

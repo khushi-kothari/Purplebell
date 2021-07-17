@@ -6,9 +6,8 @@
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
 
-/*
 .hero_bg {
-  background-image: url("../images/edited\ flower.jpg");
+  background-image: url("../images/desk.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   height: 100%;
@@ -16,19 +15,18 @@
 }
 
 .overlay {
-  background: rgba(0, 0, 0, 0.4);
+  background: rgba(0, 0, 0, 0.6);
   overflow: hidden;
   height: 100%;
-  z-index: 2;
-}
-*/
-
-.hero_bg {
-  background-color: rgb(0, 58, 184);
+  z-index: 3;
 }
 
 .bg {
   background-image: url("../images/bf.jpg");
+}
+
+.bg,
+.bg_1 {
   min-height: 500px;
   background-attachment: fixed;
   background-position: center;
@@ -36,8 +34,24 @@
   background-size: cover;
 }
 
-.bg .scroll_bg {
+.bg_1 {
+  background-image: url("../images/brush.jpg");
+}
+
+/*
+.bg_2 {
+  background-image: url("../images/slide6.jpg");
+}*/
+
+.scroll_bg {
   background: rgba(0, 0, 0, 0.625);
   height: 100%;
   z-index: 4;
+}
+
+.brush_img {
+  background-image: url("../images/brush_1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
