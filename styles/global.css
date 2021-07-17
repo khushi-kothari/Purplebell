@@ -7,9 +7,10 @@
 @import "tailwindcss/utilities";
 
 .hero_bg {
-  background-image: url("../images/desk.jpg");
+  background-image: url("../images/hero.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: bottom;
   height: 100%;
   overflow: hidden;
 }
@@ -38,20 +39,8 @@
   background-image: url("../images/brush.jpg");
 }
 
-/*
-.bg_2 {
-  background-image: url("../images/slide6.jpg");
-}*/
-
 .scroll_bg {
   background: rgba(0, 0, 0, 0.625);
   height: 100%;
   z-index: 4;
-}
-
-.brush_img {
-  background-image: url("../images/brush_1.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
