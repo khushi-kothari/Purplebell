@@ -12,7 +12,7 @@ export default function Home() {
     {/* Hero Section */}
     <div className="hero_bg">
     <div className="">
-    <div className="flex flex-col items-center justify-center min-h-screen py-2">
+    <div className="flex flex-col items-center justify-center min-h-8 py-2">
       <Head>
         <title>Bluebell Industries</title>
         <link rel="icon" href="/favicon.ico" />
