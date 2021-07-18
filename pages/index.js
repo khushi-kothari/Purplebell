@@ -219,7 +219,7 @@ export default function Home() {
             </div>
           </div>
           <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-            <img className="object-cover object-center rounded" alt="aluminium filament" src="https://lh3.googleusercontent.com/proxy/RP8-SyE3SBoT6Dy4uqSxw6HuK9plWuRiDvWY_Z083G36nlSeRQaI4g0tU7PfhrsU9sDrqHCOl0PnihhugAaztAcPXoJrCXKyDoOU1A9NAOLtG0U61GTFQVJWtQh7DTpgL7JfKgeHLTRDm1OcF5f4uZElBHw2hGz_dD3UwnacbaooWNJvT3wdoak5QZ6yrVxln-bsM-Xp46_OYQ" />
+            <img className="object-cover object-center rounded" alt="aluminium filament" src="https://3dk.berlin/919-large_default/pla-filament-aluminium-metallic.jpg" />
             {/*<div className="coil object-cover object-center h-full w-full" />*/}
           </div>
         </div>
