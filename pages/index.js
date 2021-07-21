@@ -6,10 +6,6 @@ import Image from "next/image"
 
 export default function Home() {
 
-  const [isOpen, setOpen] = useState(false);
-  const blue = require('../.next/static/image/images/blue.4ad5530941462b7062b5b501b236a917.jpg');
-
-
   return (
     <div>
     {/* Hero Section */}
