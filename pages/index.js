@@ -267,9 +267,6 @@ export default function Home() {
                   <li>
                     <a className="text-gray-600 hover:text-gray-800 cursor-pointer">Third Link</a>
                   </li>
-                  <li>
-                    <a className="text-gray-600 hover:text-gray-800 cursor-pointer">Fourth Link</a>
-                  </li>
                 </nav>
               </div>
               <div className="lg:w-1/4 md:w-1/2 w-full px-4">
@@ -279,10 +276,7 @@ export default function Home() {
                     <a className="text-gray-600 hover:text-gray-800 cursor-pointer">Nylon Bristles</a>
                   </li>
                   <li>
-                    <a className="text-gray-600 hover:text-gray-800 cursor-pointer">Nylon Bristles</a>
-                  </li>
-                  <li>
-                    <a className="text-gray-600 hover:text-gray-800 cursor-pointer">Aluminium Filaments</a>
+                    <a className="text-gray-600 hover:text-gray-800 cursor-pointer">PBT Bristles</a>
                   </li>
                   <li>
                     <a className="text-gray-600 hover:text-gray-800 cursor-pointer">Aluminium Filaments</a>
