@@ -1,5 +1,4 @@
 import Head from 'next/head'
-import { useState } from 'react';
 import Image from "next/image"
 
 //media query min-w-x means apply changes on screen greater than or equal to x
@@ -13,7 +12,7 @@ export default function Home() {
     <div className="">
     <div className="flex flex-col items-center justify-center min-h-8 py-2">
       <Head>
-        <title>Bluebell Industries</title>
+        <title>Purplebell Industries</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
@@ -25,7 +24,7 @@ export default function Home() {
           <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-8 h-8 md:w-10 md:h-10 text-white p-2 bg-yellow-600 rounded-full" viewBox="0 0 24 24">
             <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
           </svg>
-          <span className="ml-3 text-xl md:text-2xl font-bold text-gray-800 cursor-pointer">Bluebell Industries</span>
+          <span className="ml-3 text-xl md:text-2xl font-bold text-gray-800 cursor-pointer">Purplebell Industries</span>
         </a>
         <div className="pl-10 md:pl-14 md:flex flex-row items-center">
         <nav className="flex text-xs md:text-sm lg:w-full flex-wrap items-center md:ml-auto">
@@ -76,7 +75,7 @@ export default function Home() {
             <h1 className="title-font mb-10 text-3xl md:text-5xl font-bold text-black">
               Welcome to {' '}
               <a className="text-yellow-700" href="#">
-                BlueBell
+                Purplebell
               </a>
             </h1>
             {/*<p className="mb-8 leading-relaxed text-white">Meggings kinfolk echo park stumptown DIY, kale chips beard jianbing tousled. Chambray dreamcatcher trust fund, kitsch vice godard disrupt ramps hexagon mustache umami snackwave tilde chillwave ugh. Pour-over meditation PBR&B pickled ennui celiac mlkshk freegan photo booth af fingerstache pitchfork.</p>*/}
@@ -123,7 +122,7 @@ export default function Home() {
       <div className="bg relative">
         <h1 className="title-font w-50 mb-10 text-3xl md:text-4xl font-bold text-gray-900 justify-center items-center md:w-80 absolute bottom-28 mx-auto md:bottom-32 md:right-28 bg-white bg-opacity-60 p-6">Brushing gets better when you {' '}
               <a className="text-yellow-700 text-5xl md:text-6xl" href="#">
-                BlueBell
+                Purplebell
               </a></h1>
       </div>
 
@@ -250,7 +249,7 @@ export default function Home() {
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full" viewBox="0 0 24 24">
                   <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
                 </svg>
-                <span className="ml-3 text-xl cursor-pointer">Bluebell</span>
+                <span className="ml-3 text-xl cursor-pointer">Purplebell</span>
               </a>
               {/*<p className="mt-2 text-sm text-gray-500">Air plant banjo lyft occupy retro adaptogen indego</p>*/}
             </div>
@@ -287,7 +286,7 @@ export default function Home() {
           </div>
           <div className="bg-gray-100">
             <div className="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
-              <p className="text-gray-500 text-sm text-center sm:text-left">© 2021 Bluebell —
+              <p className="text-gray-500 text-sm text-center sm:text-left">© 2021 Purplebell —
                 <a href="https://twitter.com/knyttneve" rel="noopener noreferrer" className="text-gray-600 ml-1" target="_blank">@name</a>
               </p>
               <span className="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start">
