@@ -207,7 +207,7 @@ export default function Home() {
             </div>
           </div>
           <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-            <img className="object-cover object-center rounded" alt="aluminium filament" src="../images/aluminium.jpeg" />
+            <img className="object-cover object-center rounded" alt="aluminium filament" src="https://5.imimg.com/data5/JY/GA/MY-22011016/aluminium-3d-printer-filament-500x500.jpg" />
             {/*<div className="coil object-cover object-center h-full w-full" />*/}
           </div>
         </div>
